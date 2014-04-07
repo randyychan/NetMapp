@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/full_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pradeep KrishnaMurthy"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+		android:paddingLeft="10dp">
+		
+        <ImageView
+            android:id="@+id/profile_pic"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            
+            android:src="@drawable/netapp_profile" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+            <TextView
+                android:id="@+id/job_title"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:paddingLeft="5dp"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textSize="20dp"
+		        android:text="QA Enginerer" />
+			<TextView
+                android:id="@+id/dept_name"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:paddingLeft="5dp"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textSize="20dp"
+		        android:text="OTC WAFL Quality" />
+			<TextView
+                android:id="@+id/unix_name"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:paddingLeft="5dp"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textSize="20dp"
+		        android:text="ttsang" />
+			
+        </LinearLayout>
+
+    </LinearLayout>
+
+    
+    <Button
+        android:id="@+id/cube_location_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="SVL 4.2.188"
+        android:paddingLeft="10dp" />
+
+    <Button
+        android:id="@+id/email_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="thomas.tsang@netapp.com" />
+
+    <Button
+        android:id="@+id/phone_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="(408) 722 - 4545" />
+   
+</LinearLayout>
+

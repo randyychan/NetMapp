@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:padding="5dp">
+    <RelativeLayout android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent" android:layout_height="65dp">
+
+        <TextView
+            android:id="@+id/last_name"
+            style="@android:style/TextAppearance.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="25dp"
+           
+            android:paddingRight="5sp"
+            android:text="LastN" />
+
+        <TextView
+            android:id="@+id/nothing"
+            style="@android:style/TextAppearance.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/last_name"
+            android:layout_alignBottom="@+id/last_name"
+            android:layout_toRightOf="@+id/last_name"
+            android:paddingRight="5sp"
+            android:text="," />
+
+        <TextView
+            android:id="@+id/first_name"
+            style="@android:style/TextAppearance.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/nothing"
+            android:layout_alignBottom="@+id/nothing"
+            android:layout_toRightOf="@+id/nothing"
+            android:paddingRight="5sp"
+            android:text="FirstN" />
+
+        <TextView
+            android:id="@+id/dept_name"
+            style="@android:style/TextAppearance.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/last_name"
+            android:layout_below="@+id/last_name"
+            android:paddingRight="5sp"
+            android:text="deptN" />
+
+        <TextView
+            android:id="@+id/office_num"
+            style="@android:style/TextAppearance.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/dept_name"
+            android:layout_below="@+id/dept_name"
+            android:paddingRight="5sp"
+            android:text="office num" />
+
+
+    </RelativeLayout>
+</LinearLayout>

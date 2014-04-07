@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:yourapp="http://schemas.android.com/apk/res-auto" >
+
+	<item android:id="@+id/action_search"
+	    android:title="Search Employees"
+	    android:showAsAction="always"
+	    android:icon="@android:drawable/ic_menu_search"
+	    android:actionViewClass="android.widget.SearchView" />
+	<item  
+    android:id="@+id/right_btn"
+    android:icon="@android:drawable/ic_menu_more"
+    android:title="Conference Rooms"
+    android:showAsAction="never"/>
+	<item  
+    android:id="@+id/reload_btn"
+    android:icon="@android:drawable/ic_menu_sort_alphabetically"
+    android:title="Refresh Employees"
+    android:showAsAction="never"/>
+	<item  
+    android:id="@+id/clear_btn"
+    android:icon="@android:drawable/ic_menu_help"
+    android:title="Clear Map"
+    android:showAsAction="never"/>
+    <item  
+    android:id="@+id/help_btn"
+    android:icon="@android:drawable/ic_menu_help"
+    android:title="Help"
+    android:showAsAction="never"/>
+    <item
+        android:id="@+id/demo_btn"
+        android:title="Demo Indoor Nav."
+        android:showAsAction="never"/>
+</menu>

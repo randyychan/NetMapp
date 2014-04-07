@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SearchViewActivity!</string>
+    <string name="app_name">NetMapp</string>
+    <string name="search_label">Customers</string>
+    <string name="search_hint">Search Customers</string>
+    <string name="settings_description">List of Customers</string>
+    <string name="title_activity_indoor_map_view">IndoorMapViewActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+<string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+     <string-array name="buildings">
+        <item>Outdoor Map</item>
+        <item>Building 1</item>
+        <item>Building 2</item>
+        <item>Building 3</item>
+        <item>Building 4</item>
+        <item>Building 5</item>
+        <item>Building 6</item>
+        <item>Building 7</item>
+        <item>Building 8</item>
+        <item>Building 9</item>
+        <item>Building 10</item>
+        <item>Building 11</item>
+        <item>Building 12</item>
+        <item>Building 13</item>
+        <item>Building 14</item>
+        <item>Building 15</item>
+    </string-array>
+    
+     <string-array name="building1floors">
+        <item>Floor 1</item>
+        <item>Floor 2</item>
+        <item>Floor 3</item>
+     </string-array>
+     <string-array name="building7floors">
+        <item>Floor 1</item>
+        <item>Floor 2</item>
+        <item>Floor 3</item>
+        <item>Floor 4</item>
+        <item>Floor 5</item>
+     </string-array>
+</resources>
